@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-06T13:00:57+05:45</updated><id>/feed.xml</id><title type="html">The Data Science Blog</title><subtitle>Diving into Data Science and Machine Learning Concepts.</subtitle><entry><title type="html">Welcome to The Data Science Blog.</title><link href="/jekyll/update/2021/07/06/welcome-to-the-data-science-blog.html" rel="alternate" type="text/html" title="Welcome to The Data Science Blog." /><published>2021-07-06T08:09:06+05:45</published><updated>2021-07-06T08:09:06+05:45</updated><id>/jekyll/update/2021/07/06/welcome-to-the-data-science-blog</id><content type="html" xml:base="/jekyll/update/2021/07/06/welcome-to-the-data-science-blog.html">&lt;p&gt;The Data Science Blog is all about unravelling the broader concepts of Data Science, &lt;a href=&quot;https://www.coursera.org/learn/machine-learning/&quot;&gt;Machine Learning&lt;/a&gt;, &lt;a href=&quot;https://www.deeplearning.ai/&quot;&gt;Deep Learning&lt;/a&gt;, DS interview questions at FAANG, concepts of Python, and it’s libraries, Probability and Stat, and much more.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-06T13:31:25+05:45</updated><id>/feed.xml</id><title type="html">The Data Science Blog</title><subtitle>Diving into Data Science and Machine Learning Concepts.</subtitle><entry><title type="html">The Practical Data Science Roadmap.</title><link href="/datascience/2021/07/06/practical-data-science-roadmap.html" rel="alternate" type="text/html" title="The Practical Data Science Roadmap." /><published>2021-07-06T13:15:06+05:45</published><updated>2021-07-06T13:15:06+05:45</updated><id>/datascience/2021/07/06/practical-data-science-roadmap</id><content type="html" xml:base="/datascience/2021/07/06/practical-data-science-roadmap.html">&lt;h2 id=&quot;a-data-science-core-skills&quot;&gt;A) Data Science Core Skills&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-programming-and-sql&quot;&gt;1) Programming and SQL&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/lj724M9dC4M&quot;&gt;Python - Corey Schafer Playlist&lt;/a&gt; (Focus on &lt;strong&gt;13&lt;/strong&gt;, &lt;strong&gt;18-32&lt;/strong&gt;, &lt;strong&gt;35-45&lt;/strong&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://book.pythontips.com/&quot;&gt;Intermediate Python Book&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sqlzoo.net/&quot;&gt;SQL Zoo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pandas.pydata.org/docs/user_guide/10min.html&quot;&gt;10 minutes to pandas&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ZyhVh-qRZPA&amp;amp;list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS&quot;&gt;Pandas by Corey Schafer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hackerearth.com/practice/machine-learning/data-manipulation-visualisation-r-python/tutorial-data-manipulation-numpy-pandas-python/tutorial/&quot;&gt;Numpy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-data-collection-and-wranglingcleaning&quot;&gt;2) Data Collection and Wrangling/Cleaning&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A sample project using Pandas and/or Numpy&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/learn/data-cleaning&quot;&gt;Data Cleaning course by Kaggle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-exploratory-data-analysis&quot;&gt;3) Exploratory Data Analysis&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/learn/data-analysis-with-python&quot;&gt;Coursera Data Analysis with Python&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/learn/data-visualization&quot;&gt;Data Visualization with Kaggle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Basics of Tableau&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/hitchhikers-guide-to-exploratory-data-analysis-6e8d896d3f7e&quot;&gt;Hitchhiker’s guide to Exploratory Data Analysis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A sample project&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-data-engineering&quot;&gt;4) Data Engineering&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/data-engineer-nanodegree--nd027&quot;&gt;Data Engineering Nano-degree&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;5-machine-learning--deep-learning&quot;&gt;5) Machine Learning / Deep Learning&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/learn/machine-learning&quot;&gt;Machine Learning by Andrew Ng&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/deep-learning&quot;&gt;Deep Learning Specialization Coursera&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mlcourse.ai/&quot;&gt;MLCourse.ai&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;b-must-read-books&quot;&gt;B) Must-read books&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pick any introductory textbook on Probability and Statistics&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.statlearning.com/&quot;&gt;Introduction to Statistical Learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web.stanford.edu/~hastie/Papers/ESLII.pdf&quot;&gt;Elements of Statistical Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;link href=&quot;https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
 
@@ -7,19 +56,19 @@
     &lt;h4&gt;Share this:&lt;/h4&gt;
 
     &lt;div class=&quot;share-buttons&quot;&gt;
-        &lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=/jekyll/update/2021/07/06/welcome-to-the-data-science-blog.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Facebook&quot;&gt;
+        &lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=/datascience/2021/07/06/practical-data-science-roadmap.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Facebook&quot;&gt;
             &lt;i class=&quot;fa fa-facebook-official share-button&quot;&gt; facebook&lt;/i&gt;
         &lt;/a&gt;
 
-        &lt;a href=&quot;https://twitter.com/intent/tweet?text=Welcome to The Data Science Blog.&amp;amp;url=/jekyll/update/2021/07/06/welcome-to-the-data-science-blog.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Twitter&quot;&gt;
+        &lt;a href=&quot;https://twitter.com/intent/tweet?text=The Practical Data Science Roadmap.&amp;amp;url=/datascience/2021/07/06/practical-data-science-roadmap.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Twitter&quot;&gt;
             &lt;i class=&quot;fa fa-twitter share-button&quot;&gt; twitter&lt;/i&gt;
         &lt;/a&gt;
 
-        &lt;a href=&quot;http://www.reddit.com/submit?url=/jekyll/update/2021/07/06/welcome-to-the-data-science-blog.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Reddit&quot;&gt;
+        &lt;a href=&quot;http://www.reddit.com/submit?url=/datascience/2021/07/06/practical-data-science-roadmap.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Reddit&quot;&gt;
             &lt;i class=&quot;fa fa-reddit-alien share-button&quot;&gt; reddit&lt;/i&gt;
         &lt;/a&gt;
 
-        &lt;a href=&quot;https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=/jekyll/update/2021/07/06/welcome-to-the-data-science-blog.html&amp;amp;title=Welcome to The Data Science Blog.&amp;amp;summary=&amp;amp;source=The Data Science Blog&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on LinkedIn&quot;&gt;
+        &lt;a href=&quot;https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=/datascience/2021/07/06/practical-data-science-roadmap.html&amp;amp;title=The Practical Data Science Roadmap.&amp;amp;summary=&amp;amp;source=The Data Science Blog&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on LinkedIn&quot;&gt;
             &lt;i class=&quot;fa fa-linkedin share-button&quot;&gt; linkedin&lt;/i&gt;
         &lt;/a&gt;
 
@@ -127,4 +176,133 @@
     .fa-envelope:hover {
         background-color: #444444;
     }
-&lt;/style&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">The Data Science Blog is all about unravelling the broader concepts of Data Science, Machine Learning, Deep Learning, DS interview questions at FAANG, concepts of Python, and it’s libraries, Probability and Stat, and much more.</summary></entry></feed>
+&lt;/style&gt;</content><author><name></name></author><category term="datascience" /><summary type="html">A) Data Science Core Skills</summary></entry><entry><title type="html">Welcome to The Data Science Blog.</title><link href="/datascience/2021/07/06/welcome-to-the-data-science-blog.html" rel="alternate" type="text/html" title="Welcome to The Data Science Blog." /><published>2021-07-06T08:09:06+05:45</published><updated>2021-07-06T08:09:06+05:45</updated><id>/datascience/2021/07/06/welcome-to-the-data-science-blog</id><content type="html" xml:base="/datascience/2021/07/06/welcome-to-the-data-science-blog.html">&lt;p&gt;The Data Science Blog is all about unravelling the broader concepts of Data Science, &lt;a href=&quot;https://www.coursera.org/learn/machine-learning/&quot;&gt;Machine Learning&lt;/a&gt;, &lt;a href=&quot;https://www.deeplearning.ai/&quot;&gt;Deep Learning&lt;/a&gt;, DS interview questions at FAANG, concepts of Python, and it’s libraries, Probability and Stat, and much more.&lt;/p&gt;
+
+&lt;link href=&quot;https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+
+&lt;div id=&quot;share-bar&quot;&gt;
+
+    &lt;h4&gt;Share this:&lt;/h4&gt;
+
+    &lt;div class=&quot;share-buttons&quot;&gt;
+        &lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=/datascience/2021/07/06/welcome-to-the-data-science-blog.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Facebook&quot;&gt;
+            &lt;i class=&quot;fa fa-facebook-official share-button&quot;&gt; facebook&lt;/i&gt;
+        &lt;/a&gt;
+
+        &lt;a href=&quot;https://twitter.com/intent/tweet?text=Welcome to The Data Science Blog.&amp;amp;url=/datascience/2021/07/06/welcome-to-the-data-science-blog.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Twitter&quot;&gt;
+            &lt;i class=&quot;fa fa-twitter share-button&quot;&gt; twitter&lt;/i&gt;
+        &lt;/a&gt;
+
+        &lt;a href=&quot;http://www.reddit.com/submit?url=/datascience/2021/07/06/welcome-to-the-data-science-blog.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Reddit&quot;&gt;
+            &lt;i class=&quot;fa fa-reddit-alien share-button&quot;&gt; reddit&lt;/i&gt;
+        &lt;/a&gt;
+
+        &lt;a href=&quot;https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=/datascience/2021/07/06/welcome-to-the-data-science-blog.html&amp;amp;title=Welcome to The Data Science Blog.&amp;amp;summary=&amp;amp;source=The Data Science Blog&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on LinkedIn&quot;&gt;
+            &lt;i class=&quot;fa fa-linkedin share-button&quot;&gt; linkedin&lt;/i&gt;
+        &lt;/a&gt;
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;style&gt;
+    /* Share Bar */
+    #share-bar {
+        font-size: 20px;
+    }
+
+    /* Title */
+    #share-bar h4 {
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+
+    /* All buttons */
+    .share-buttons {}
+
+    /* Each button */
+    .share-button {
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-right: 3px;
+        border: 1px solid #D3D6D2;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .share-button:hover {
+        opacity: 1;
+        color: #ffffff;
+    }
+
+    /* Facebook button */
+    .fa-facebook-official {
+        color: #3b5998;
+    }
+
+    .fa-facebook-official:hover {
+        background-color: #3b5998;
+    }
+
+    /* Twitter button */
+    .fa-twitter {
+        color: #55acee;
+    }
+
+    .fa-twitter:hover {
+        background-color: #55acee;
+    }
+
+    /* Google-PLus button */
+    .fa-google-plus {
+        color: #dd4b39;
+    }
+
+    .fa-google-plus:hover {
+        background-color: #dd4b39;
+    }
+
+    /* Pinterest button */
+    .fa-pinterest-p {
+        color: #cb2027;
+    }
+
+    .fa-pinterest-p:hover {
+        background-color: #cb2027;
+    }
+
+    /* Tumblr button */
+    .fa-tumblr {
+        color: #32506d;
+    }
+
+    .fa-tumblr:hover {
+        background-color: #32506d;
+    }
+
+    /* Reddit button */
+    .fa-reddit-alien {
+        color: #ff4500;
+    }
+
+    .fa-reddit-alien:hover {
+        background-color: #ff4500;
+    }
+
+    /* LinkedIn button */
+    .fa-linkedin {
+        color: #007bb5;
+    }
+
+    .fa-linkedin:hover {
+        background-color: #007bb5;
+    }
+
+    /* Email button */
+    .fa-envelope {
+        color: #444444;
+    }
+
+    .fa-envelope:hover {
+        background-color: #444444;
+    }
+&lt;/style&gt;</content><author><name></name></author><category term="datascience" /><summary type="html">The Data Science Blog is all about unravelling the broader concepts of Data Science, Machine Learning, Deep Learning, DS interview questions at FAANG, concepts of Python, and it’s libraries, Probability and Stat, and much more.</summary></entry></feed>

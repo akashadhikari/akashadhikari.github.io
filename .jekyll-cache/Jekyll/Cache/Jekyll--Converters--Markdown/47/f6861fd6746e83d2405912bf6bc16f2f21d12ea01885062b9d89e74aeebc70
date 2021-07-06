@@ -1,0 +1,44 @@
+I"ê<h2 id="data-science-core-skills-roadmap">Data Science Core Skills Roadmap</h2>
+
+<h3 id="1-programming">1) Programming</h3>
+
+<ul>
+  <li><a href="https://youtu.be/lj724M9dC4M">Python - Corey Schafer Playlist</a> (Focus on <strong>13</strong>, <strong>18-32</strong>, <strong>35-45</strong>)</li>
+  <li>Intermediate Python (<a href="http://book.pythontips.com/">Book</a>)</li>
+  <li><a href="https://sqlzoo.net/">SQL Zoo</a></li>
+  <li><a href="https://pandas.pydata.org/docs/user_guide/10min.html">10 minutes to pandas</a></li>
+  <li><a href="https://www.youtube.com/watch?v=ZyhVh-qRZPA&amp;list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS">Pandas by Corey Schafer</a></li>
+  <li><a href="https://www.hackerearth.com/practice/machine-learning/data-manipulation-visualisation-r-python/tutorial-data-manipulation-numpy-pandas-python/tutorial/">Numpy</a></li>
+</ul>
+
+<h3 id="2-data-collection-and-wranglingcleaning">2) Data Collection and Wrangling/Cleaning</h3>
+
+<ul>
+  <li>A sample project using Pandas and/or Numpy</li>
+  <li><a href="https://www.kaggle.com/learn/data-cleaning">Data Cleaning course by Kaggle</a></li>
+</ul>
+
+<h3 id="3-exploratory-data-analysis">3) Exploratory Data Analysis</h3>
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/data-analysis-with-python">Coursera Data Analysis with Python</a></li>
+  <li><a href="https://www.kaggle.com/learn/data-visualization">Data Visualization with Kaggle</a></li>
+  <li>Tableau</li>
+  <li><a href="https://towardsdatascience.com/hitchhikers-guide-to-exploratory-data-analysis-6e8d896d3f7e">Hitchhiker‚Äôs guide to Exploratory Data Analysis</a></li>
+  <li>A sample project</li>
+</ul>
+
+<h3 id="4-data-engineering">4) Data Engineering</h3>
+
+<ul>
+  <li><a href="https://www.udacity.com/course/data-engineer-nanodegree--nd027">Data Engineering Nano-degree</a></li>
+</ul>
+
+<h3 id="5-machine-learning--deep-learning">5) Machine Learning / Deep Learning</h3>
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/machine-learning">Machine Learning by Andrew Ng</a></li>
+  <li><a href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization Coursera</a></li>
+  <li><a href="https://mlcourse.ai/">MLCourse.ai</a></li>
+</ul>
+:ET
