@@ -11,4 +11,4 @@ The Data Science Blog is all about unravelling the broader concepts of Data Scie
 [machine-learning]: https://www.coursera.org/learn/machine-learning/
 [deep-learning]:   https://www.deeplearning.ai/
 
-{% include _share-page.html %}
+{% include share-bar.html %}
