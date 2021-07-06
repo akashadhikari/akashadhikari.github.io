@@ -9,7 +9,7 @@ categories: datascience
 
 ### 1) Programming and SQL
 
-- [Python - Corey Schafer Playlist](https://youtu.be/lj724M9dC4M) (Focus on **13**, **18-32**, **35-45**)
+- [Python - Corey Schafer Playlist](https://youtu.be/YYXdXT2l-Gg?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU) (Focus on **13**, **18-32**, **35-45**)
 - [Intermediate Python Book](http://book.pythontips.com/)
 - [SQL Zoo](https://sqlzoo.net/)
 - [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
