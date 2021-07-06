@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-06T13:31:25+05:45</updated><id>/feed.xml</id><title type="html">The Data Science Blog</title><subtitle>Diving into Data Science and Machine Learning Concepts.</subtitle><entry><title type="html">The Practical Data Science Roadmap.</title><link href="/datascience/2021/07/06/practical-data-science-roadmap.html" rel="alternate" type="text/html" title="The Practical Data Science Roadmap." /><published>2021-07-06T13:15:06+05:45</published><updated>2021-07-06T13:15:06+05:45</updated><id>/datascience/2021/07/06/practical-data-science-roadmap</id><content type="html" xml:base="/datascience/2021/07/06/practical-data-science-roadmap.html">&lt;h2 id=&quot;a-data-science-core-skills&quot;&gt;A) Data Science Core Skills&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://akashadhikari.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://akashadhikari.github.io/" rel="alternate" type="text/html" /><updated>2021-07-06T13:40:43+05:45</updated><id>https://akashadhikari.github.io/feed.xml</id><title type="html">The Data Science Blog</title><subtitle>Diving into Data Science and Machine Learning Concepts.</subtitle><entry><title type="html">The Practical Data Science Roadmap.</title><link href="https://akashadhikari.github.io/datascience/2021/07/06/practical-data-science-roadmap.html" rel="alternate" type="text/html" title="The Practical Data Science Roadmap." /><published>2021-07-06T13:15:06+05:45</published><updated>2021-07-06T13:15:06+05:45</updated><id>https://akashadhikari.github.io/datascience/2021/07/06/practical-data-science-roadmap</id><content type="html" xml:base="https://akashadhikari.github.io/datascience/2021/07/06/practical-data-science-roadmap.html">&lt;h2 id=&quot;a-data-science-core-skills&quot;&gt;A) Data Science Core Skills&lt;/h2&gt;
 
 &lt;h3 id=&quot;1-programming-and-sql&quot;&gt;1) Programming and SQL&lt;/h3&gt;
 
@@ -56,19 +56,19 @@
     &lt;h4&gt;Share this:&lt;/h4&gt;
 
     &lt;div class=&quot;share-buttons&quot;&gt;
-        &lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=/datascience/2021/07/06/practical-data-science-roadmap.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Facebook&quot;&gt;
+        &lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=https://akashadhikari.github.io/datascience/2021/07/06/practical-data-science-roadmap.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Facebook&quot;&gt;
             &lt;i class=&quot;fa fa-facebook-official share-button&quot;&gt; facebook&lt;/i&gt;
         &lt;/a&gt;
 
-        &lt;a href=&quot;https://twitter.com/intent/tweet?text=The Practical Data Science Roadmap.&amp;amp;url=/datascience/2021/07/06/practical-data-science-roadmap.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Twitter&quot;&gt;
+        &lt;a href=&quot;https://twitter.com/intent/tweet?text=The Practical Data Science Roadmap.&amp;amp;url=https://akashadhikari.github.io/datascience/2021/07/06/practical-data-science-roadmap.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Twitter&quot;&gt;
             &lt;i class=&quot;fa fa-twitter share-button&quot;&gt; twitter&lt;/i&gt;
         &lt;/a&gt;
 
-        &lt;a href=&quot;http://www.reddit.com/submit?url=/datascience/2021/07/06/practical-data-science-roadmap.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Reddit&quot;&gt;
+        &lt;a href=&quot;http://www.reddit.com/submit?url=https://akashadhikari.github.io/datascience/2021/07/06/practical-data-science-roadmap.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Reddit&quot;&gt;
             &lt;i class=&quot;fa fa-reddit-alien share-button&quot;&gt; reddit&lt;/i&gt;
         &lt;/a&gt;
 
-        &lt;a href=&quot;https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=/datascience/2021/07/06/practical-data-science-roadmap.html&amp;amp;title=The Practical Data Science Roadmap.&amp;amp;summary=&amp;amp;source=The Data Science Blog&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on LinkedIn&quot;&gt;
+        &lt;a href=&quot;https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://akashadhikari.github.io/datascience/2021/07/06/practical-data-science-roadmap.html&amp;amp;title=The Practical Data Science Roadmap.&amp;amp;summary=&amp;amp;source=The Data Science Blog&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on LinkedIn&quot;&gt;
             &lt;i class=&quot;fa fa-linkedin share-button&quot;&gt; linkedin&lt;/i&gt;
         &lt;/a&gt;
 
@@ -176,7 +176,7 @@
     .fa-envelope:hover {
         background-color: #444444;
     }
-&lt;/style&gt;</content><author><name></name></author><category term="datascience" /><summary type="html">A) Data Science Core Skills</summary></entry><entry><title type="html">Welcome to The Data Science Blog.</title><link href="/datascience/2021/07/06/welcome-to-the-data-science-blog.html" rel="alternate" type="text/html" title="Welcome to The Data Science Blog." /><published>2021-07-06T08:09:06+05:45</published><updated>2021-07-06T08:09:06+05:45</updated><id>/datascience/2021/07/06/welcome-to-the-data-science-blog</id><content type="html" xml:base="/datascience/2021/07/06/welcome-to-the-data-science-blog.html">&lt;p&gt;The Data Science Blog is all about unravelling the broader concepts of Data Science, &lt;a href=&quot;https://www.coursera.org/learn/machine-learning/&quot;&gt;Machine Learning&lt;/a&gt;, &lt;a href=&quot;https://www.deeplearning.ai/&quot;&gt;Deep Learning&lt;/a&gt;, DS interview questions at FAANG, concepts of Python, and it’s libraries, Probability and Stat, and much more.&lt;/p&gt;
+&lt;/style&gt;</content><author><name></name></author><category term="datascience" /><summary type="html">A) Data Science Core Skills</summary></entry><entry><title type="html">Welcome to The Data Science Blog.</title><link href="https://akashadhikari.github.io/datascience/2021/07/06/welcome-to-the-data-science-blog.html" rel="alternate" type="text/html" title="Welcome to The Data Science Blog." /><published>2021-07-06T08:09:06+05:45</published><updated>2021-07-06T08:09:06+05:45</updated><id>https://akashadhikari.github.io/datascience/2021/07/06/welcome-to-the-data-science-blog</id><content type="html" xml:base="https://akashadhikari.github.io/datascience/2021/07/06/welcome-to-the-data-science-blog.html">&lt;p&gt;The Data Science Blog is all about unravelling the broader concepts of Data Science, &lt;a href=&quot;https://www.coursera.org/learn/machine-learning/&quot;&gt;Machine Learning&lt;/a&gt;, &lt;a href=&quot;https://www.deeplearning.ai/&quot;&gt;Deep Learning&lt;/a&gt;, DS interview questions at FAANG, concepts of Python, and it’s libraries, Probability and Stat, and much more.&lt;/p&gt;
 
 &lt;link href=&quot;https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
 
@@ -185,19 +185,19 @@
     &lt;h4&gt;Share this:&lt;/h4&gt;
 
     &lt;div class=&quot;share-buttons&quot;&gt;
-        &lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=/datascience/2021/07/06/welcome-to-the-data-science-blog.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Facebook&quot;&gt;
+        &lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=https://akashadhikari.github.io/datascience/2021/07/06/welcome-to-the-data-science-blog.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Facebook&quot;&gt;
             &lt;i class=&quot;fa fa-facebook-official share-button&quot;&gt; facebook&lt;/i&gt;
         &lt;/a&gt;
 
-        &lt;a href=&quot;https://twitter.com/intent/tweet?text=Welcome to The Data Science Blog.&amp;amp;url=/datascience/2021/07/06/welcome-to-the-data-science-blog.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Twitter&quot;&gt;
+        &lt;a href=&quot;https://twitter.com/intent/tweet?text=Welcome to The Data Science Blog.&amp;amp;url=https://akashadhikari.github.io/datascience/2021/07/06/welcome-to-the-data-science-blog.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Twitter&quot;&gt;
             &lt;i class=&quot;fa fa-twitter share-button&quot;&gt; twitter&lt;/i&gt;
         &lt;/a&gt;
 
-        &lt;a href=&quot;http://www.reddit.com/submit?url=/datascience/2021/07/06/welcome-to-the-data-science-blog.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Reddit&quot;&gt;
+        &lt;a href=&quot;http://www.reddit.com/submit?url=https://akashadhikari.github.io/datascience/2021/07/06/welcome-to-the-data-science-blog.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Reddit&quot;&gt;
             &lt;i class=&quot;fa fa-reddit-alien share-button&quot;&gt; reddit&lt;/i&gt;
         &lt;/a&gt;
 
-        &lt;a href=&quot;https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=/datascience/2021/07/06/welcome-to-the-data-science-blog.html&amp;amp;title=Welcome to The Data Science Blog.&amp;amp;summary=&amp;amp;source=The Data Science Blog&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on LinkedIn&quot;&gt;
+        &lt;a href=&quot;https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://akashadhikari.github.io/datascience/2021/07/06/welcome-to-the-data-science-blog.html&amp;amp;title=Welcome to The Data Science Blog.&amp;amp;summary=&amp;amp;source=The Data Science Blog&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on LinkedIn&quot;&gt;
             &lt;i class=&quot;fa fa-linkedin share-button&quot;&gt; linkedin&lt;/i&gt;
         &lt;/a&gt;
 

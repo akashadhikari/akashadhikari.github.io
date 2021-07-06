@@ -23,7 +23,7 @@ email: akashadhikari.py@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Diving into Data Science and Machine Learning Concepts.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://akashadhikari.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sky0_1
 github_username:  akashadhikari
 
