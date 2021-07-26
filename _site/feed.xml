@@ -1,4 +1,209 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://akashadhikari.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://akashadhikari.github.io/" rel="alternate" type="text/html" /><updated>2021-07-06T13:50:43+05:45</updated><id>https://akashadhikari.github.io/feed.xml</id><title type="html">The Data Science Blog</title><subtitle>Diving into Data Science and Machine Learning Concepts.</subtitle><entry><title type="html">The Practical Data Science Roadmap.</title><link href="https://akashadhikari.github.io/datascience/2021/07/06/practical-data-science-roadmap.html" rel="alternate" type="text/html" title="The Practical Data Science Roadmap." /><published>2021-07-06T13:15:06+05:45</published><updated>2021-07-06T13:15:06+05:45</updated><id>https://akashadhikari.github.io/datascience/2021/07/06/practical-data-science-roadmap</id><content type="html" xml:base="https://akashadhikari.github.io/datascience/2021/07/06/practical-data-science-roadmap.html">&lt;h2 id=&quot;a-data-science-core-skills&quot;&gt;A) Data Science Core Skills&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://akashadhikari.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://akashadhikari.github.io/" rel="alternate" type="text/html" /><updated>2021-07-26T07:40:36+05:45</updated><id>https://akashadhikari.github.io/feed.xml</id><title type="html">The Data Science Blog</title><subtitle>Diving into Data Science and Machine Learning Concepts.</subtitle><entry><title type="html">Intro to Probability: Statistics for Data Science</title><link href="https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html" rel="alternate" type="text/html" title="Intro to Probability: Statistics for Data Science" /><published>2021-07-26T06:33:06+05:45</published><updated>2021-07-26T06:33:06+05:45</updated><id>https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001</id><content type="html" xml:base="https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html">&lt;h3 id=&quot;the-fundamental-counting-rules&quot;&gt;The Fundamental Counting Rules&lt;/h3&gt;
+
+&lt;p&gt;Let A and B are two questions that can be solved by 2 methods and 3 methods respectively. In how many ways A or B (at least one of them) can be solved?&lt;/p&gt;
+
+&lt;p&gt;Answer: 2 methods from A and 3 methods from B, i.e 5 ways.&lt;/p&gt;
+
+&lt;p&gt;John is assembling a computer. He has a choice of chips from 2 brands, a hard drive from 4 brands, a memory from 3, and an accessory bundle from 5 local stores. How many different ways can John order the parts?&lt;/p&gt;
+
+&lt;p&gt;Answer: 2&lt;em&gt;4&lt;/em&gt;3*5 = 120 different ways&lt;/p&gt;
+
+&lt;p&gt;A test contains 20 questions each having 4 choices. If there is only one right answer to each question, in how many ways can a student mark the test paper?&lt;/p&gt;
+
+&lt;p&gt;Answer: 4 possibilities from the first question * 4 from the second * 4 from the third… (up to 20 times) = 4^20 possibilities&lt;/p&gt;
+
+&lt;p&gt;The first problem defines the Sum Rule and the remaining two comprise the Product Rule.&lt;/p&gt;
+
+&lt;h3 id=&quot;permutation-and-combination&quot;&gt;Permutation and Combination&lt;/h3&gt;
+
+&lt;p&gt;In the simplest of words, permutation means to &lt;em&gt;arrange&lt;/em&gt; and combination means to &lt;em&gt;select&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Consider three letters A, B, and C. The permutations of three letters taken two at a time will be AB, BC, CA, AC, CB, and BA. The order matters in this case. While in the case of combination, the result will be AB, BC, and CA.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/permutation-combination.png&quot; alt=&quot;permutation-combination&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;permutation&lt;/strong&gt; of given things or elements or objects is an arrangement of these things in a row in some order.&lt;/p&gt;
+
+&lt;p&gt;The total number of permutations of a set of &lt;em&gt;n&lt;/em&gt; different objects selected &lt;em&gt;r&lt;/em&gt; at a time without repetition denoted by P(n,r) or &lt;em&gt;nPr&lt;/em&gt;  is defined as:&lt;/p&gt;
+
+&lt;p&gt;P(n,r) = n(n-1)(n-2) … (n-r+1)&lt;/p&gt;
+
+&lt;p&gt;In factorial notation, P(n,r) = n!/(n-r)!  where (n≥r). It also holds true for r=0.&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;combination&lt;/strong&gt; of given things means any selection of one or more things without regard to order.&lt;/p&gt;
+
+&lt;p&gt;The number of combinations of n different objects, taken r at a time (without repetition) is:&lt;/p&gt;
+
+&lt;p&gt;C(n,r) = P(n,r)/r! = n(n-1)(n-2)…(n-r+1)/r!&lt;/p&gt;
+
+&lt;p&gt;In factorial notation, C(n,r) = n!/r!(n-r)! where n≥r.&lt;/p&gt;
+
+&lt;h3 id=&quot;event&quot;&gt;Event&lt;/h3&gt;
+
+&lt;p&gt;The outcome or a set of outcomes of an activity is called an event.&lt;/p&gt;
+
+&lt;p&gt;For example, while rolling a die, getting the outcome in the form of odd number E={1,3,5}; went number E={2,4,6}, getting the prime numbers, etc. are events.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exhaustive Cases or Events:&lt;/strong&gt; It includes all possible outcomes of a random experiment. For example:&lt;/p&gt;
+
+&lt;p&gt;In flipping a coin once, S={H,T} and exhaustive cases = 2^1 = 2.&lt;/p&gt;
+
+&lt;p&gt;In flipping a coin twice, S={HH,HT,TH,TT} and exhaustive cases = 2^2 = 4.&lt;/p&gt;
+
+&lt;p&gt;In rolling a die once, S={1,2,3,4,5,6} and exhaustive cases = 6^1 = 6.&lt;/p&gt;
+
+&lt;p&gt;In rolling a die twice, exhaustive cases = 6^2 = 36.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exhaustive (partition) set of events:&lt;/strong&gt; A set of disjoint events E1, E2, …, En is collectively said to be an exhaustive set of events if the union of these events is the sample space S. For example, in rolling a die, E1 = {1,3,5} and E2={2,4,6} are exhaustive events because of E1 U E2 = S.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Favorable cases or events:&lt;/strong&gt; The number of outcomes of a random experiment that describe the possible set of actual outcomes is called favorable cases to the event. In a pack of cards, the number of favorable cases of a king is 4, and the black card is 26. In rolling a die once, the number of favorable cases of getting an event number is 3.&lt;/p&gt;
+
+&lt;h3 id=&quot;types-of-events&quot;&gt;Types of Events&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Simple and compound events:&lt;/strong&gt; Simple (elementary) events cannot be broken down further whereas compound (composite) events consist of more than one outcome. For example, while rolling a die, the event of getting 1 is simple whereas the event f getting an even number is composite.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mutually exclusive or Incompatible events:&lt;/strong&gt; Two or more events are said to be mutually exclusive (or &lt;strong&gt;disjoint events&lt;/strong&gt; or &lt;strong&gt;incompatible events&lt;/strong&gt;) if the happening of any one event excluded the happening of another event. For example, in a coin-toss experiment, either H or a T occurs at a time but not both. Likewise, in a die-roll experiment if the events are A = {1,3,5}, B= {2,4,6} and C = primes = {2,3,5}, A and B are mutually exclusive but A and C are not.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Equally like or mutually symmetric events:&lt;/strong&gt; Two or more events are said to be equally likely  (or equiprobable) events if all the events have an equal chance of occurrence. If a fair die is rolled all the outcomes 1,2,3,4,5,6 are equally likely.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Independent events:&lt;/strong&gt; Events are said to be independent of each other if the occurrence of any one of them does not affect and is not affected by the occurrence or non-occurrence of the other. If two coins are tossed together, the occurrence of the head or tail on the first coin does not affect the result of the second coin.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dependent events:&lt;/strong&gt; Contrastingly, if the occurrence of one event affects the outcomes of the other then the event is said to be dependent. If a second card is drawn from a pack of cards without the replacement of the first card, then the outcome of the second instance is affected.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Complementary events:&lt;/strong&gt; Any two events are said to be complementary (or complement of each other) if (i) they are mutually exclusive and (ii) they are collectively exhaustive.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Equal events:&lt;/strong&gt; Two events are said to be equal if A ⊂ B and B ⊂ A, This statement implies that all the points of A are also the points of B and vice-versa.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Derived events:&lt;/strong&gt; For two events A and B, the event A or B i.e A ∪ B  is a derived event.&lt;/p&gt;
+
+&lt;link href=&quot;https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+
+&lt;div id=&quot;share-bar&quot;&gt;
+
+    &lt;h4&gt;Share this:&lt;/h4&gt;
+
+    &lt;div class=&quot;share-buttons&quot;&gt;
+        &lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Facebook&quot;&gt;
+            &lt;i class=&quot;fa fa-facebook-official share-button&quot;&gt; facebook&lt;/i&gt;
+        &lt;/a&gt;
+
+        &lt;a href=&quot;https://twitter.com/intent/tweet?text=Intro to Probability: Statistics for Data Science&amp;amp;url=https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Twitter&quot;&gt;
+            &lt;i class=&quot;fa fa-twitter share-button&quot;&gt; twitter&lt;/i&gt;
+        &lt;/a&gt;
+
+        &lt;a href=&quot;http://www.reddit.com/submit?url=https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on Reddit&quot;&gt;
+            &lt;i class=&quot;fa fa-reddit-alien share-button&quot;&gt; reddit&lt;/i&gt;
+        &lt;/a&gt;
+
+        &lt;a href=&quot;https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html&amp;amp;title=Intro to Probability: Statistics for Data Science&amp;amp;summary=&amp;amp;source=The Data Science Blog&quot; onclick=&quot;window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;&quot; title=&quot;Share on LinkedIn&quot;&gt;
+            &lt;i class=&quot;fa fa-linkedin share-button&quot;&gt; linkedin&lt;/i&gt;
+        &lt;/a&gt;
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;style&gt;
+    /* Share Bar */
+    #share-bar {
+        font-size: 20px;
+    }
+
+    /* Title */
+    #share-bar h4 {
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+
+    /* All buttons */
+    .share-buttons {}
+
+    /* Each button */
+    .share-button {
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-right: 3px;
+        border: 1px solid #D3D6D2;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .share-button:hover {
+        opacity: 1;
+        color: #ffffff;
+    }
+
+    /* Facebook button */
+    .fa-facebook-official {
+        color: #3b5998;
+    }
+
+    .fa-facebook-official:hover {
+        background-color: #3b5998;
+    }
+
+    /* Twitter button */
+    .fa-twitter {
+        color: #55acee;
+    }
+
+    .fa-twitter:hover {
+        background-color: #55acee;
+    }
+
+    /* Google-PLus button */
+    .fa-google-plus {
+        color: #dd4b39;
+    }
+
+    .fa-google-plus:hover {
+        background-color: #dd4b39;
+    }
+
+    /* Pinterest button */
+    .fa-pinterest-p {
+        color: #cb2027;
+    }
+
+    .fa-pinterest-p:hover {
+        background-color: #cb2027;
+    }
+
+    /* Tumblr button */
+    .fa-tumblr {
+        color: #32506d;
+    }
+
+    .fa-tumblr:hover {
+        background-color: #32506d;
+    }
+
+    /* Reddit button */
+    .fa-reddit-alien {
+        color: #ff4500;
+    }
+
+    .fa-reddit-alien:hover {
+        background-color: #ff4500;
+    }
+
+    /* LinkedIn button */
+    .fa-linkedin {
+        color: #007bb5;
+    }
+
+    .fa-linkedin:hover {
+        background-color: #007bb5;
+    }
+
+    /* Email button */
+    .fa-envelope {
+        color: #444444;
+    }
+
+    .fa-envelope:hover {
+        background-color: #444444;
+    }
+&lt;/style&gt;</content><author><name></name></author><category term="machinelearning" /><summary type="html">The Fundamental Counting Rules</summary></entry><entry><title type="html">The Practical Data Science Roadmap.</title><link href="https://akashadhikari.github.io/datascience/2021/07/06/practical-data-science-roadmap.html" rel="alternate" type="text/html" title="The Practical Data Science Roadmap." /><published>2021-07-06T13:15:06+05:45</published><updated>2021-07-06T13:15:06+05:45</updated><id>https://akashadhikari.github.io/datascience/2021/07/06/practical-data-science-roadmap</id><content type="html" xml:base="https://akashadhikari.github.io/datascience/2021/07/06/practical-data-science-roadmap.html">&lt;h2 id=&quot;a-data-science-core-skills&quot;&gt;A) Data Science Core Skills&lt;/h2&gt;
 
 &lt;h3 id=&quot;1-programming-and-sql&quot;&gt;1) Programming and SQL&lt;/h3&gt;
 

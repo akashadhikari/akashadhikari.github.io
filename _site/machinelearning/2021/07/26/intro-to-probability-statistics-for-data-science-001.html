@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Intro to Probability: Statistics for Data Science | The Data Science Blog</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Intro to Probability: Statistics for Data Science" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The Fundamental Counting Rules" />
+<meta property="og:description" content="The Fundamental Counting Rules" />
+<link rel="canonical" href="https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html" />
+<meta property="og:url" content="https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html" />
+<meta property="og:site_name" content="The Data Science Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-07-26T06:33:06+05:45" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Intro to Probability: Statistics for Data Science" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html","headline":"Intro to Probability: Statistics for Data Science","dateModified":"2021-07-26T06:33:06+05:45","datePublished":"2021-07-26T06:33:06+05:45","mainEntityOfPage":{"@type":"WebPage","@id":"https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html"},"description":"The Fundamental Counting Rules","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://akashadhikari.github.io/feed.xml" title="The Data Science Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">The Data Science Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Intro to Probability: Statistics for Data Science</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-07-26T06:33:06+05:45" itemprop="datePublished">Jul 26, 2021
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h3 id="the-fundamental-counting-rules">The Fundamental Counting Rules</h3>
+
+<p>Let A and B are two questions that can be solved by 2 methods and 3 methods respectively. In how many ways A or B (at least one of them) can be solved?</p>
+
+<p>Answer: 2 methods from A and 3 methods from B, i.e 5 ways.</p>
+
+<p>John is assembling a computer. He has a choice of chips from 2 brands, a hard drive from 4 brands, a memory from 3, and an accessory bundle from 5 local stores. How many different ways can John order the parts?</p>
+
+<p>Answer: 2<em>4</em>3*5 = 120 different ways</p>
+
+<p>A test contains 20 questions each having 4 choices. If there is only one right answer to each question, in how many ways can a student mark the test paper?</p>
+
+<p>Answer: 4 possibilities from the first question * 4 from the second * 4 from the third… (up to 20 times) = 4^20 possibilities</p>
+
+<p>The first problem defines the Sum Rule and the remaining two comprise the Product Rule.</p>
+
+<h3 id="permutation-and-combination">Permutation and Combination</h3>
+
+<p>In the simplest of words, permutation means to <em>arrange</em> and combination means to <em>select</em>.</p>
+
+<p>Consider three letters A, B, and C. The permutations of three letters taken two at a time will be AB, BC, CA, AC, CB, and BA. The order matters in this case. While in the case of combination, the result will be AB, BC, and CA.</p>
+
+<p><img src="/assets/permutation-combination.png" alt="permutation-combination" class="img-responsive" /></p>
+
+<p>A <strong>permutation</strong> of given things or elements or objects is an arrangement of these things in a row in some order.</p>
+
+<p>The total number of permutations of a set of <em>n</em> different objects selected <em>r</em> at a time without repetition denoted by P(n,r) or <em>nPr</em>  is defined as:</p>
+
+<p>P(n,r) = n(n-1)(n-2) … (n-r+1)</p>
+
+<p>In factorial notation, P(n,r) = n!/(n-r)!  where (n≥r). It also holds true for r=0.</p>
+
+<p>A <strong>combination</strong> of given things means any selection of one or more things without regard to order.</p>
+
+<p>The number of combinations of n different objects, taken r at a time (without repetition) is:</p>
+
+<p>C(n,r) = P(n,r)/r! = n(n-1)(n-2)…(n-r+1)/r!</p>
+
+<p>In factorial notation, C(n,r) = n!/r!(n-r)! where n≥r.</p>
+
+<h3 id="event">Event</h3>
+
+<p>The outcome or a set of outcomes of an activity is called an event.</p>
+
+<p>For example, while rolling a die, getting the outcome in the form of odd number E={1,3,5}; went number E={2,4,6}, getting the prime numbers, etc. are events.</p>
+
+<p><strong>Exhaustive Cases or Events:</strong> It includes all possible outcomes of a random experiment. For example:</p>
+
+<p>In flipping a coin once, S={H,T} and exhaustive cases = 2^1 = 2.</p>
+
+<p>In flipping a coin twice, S={HH,HT,TH,TT} and exhaustive cases = 2^2 = 4.</p>
+
+<p>In rolling a die once, S={1,2,3,4,5,6} and exhaustive cases = 6^1 = 6.</p>
+
+<p>In rolling a die twice, exhaustive cases = 6^2 = 36.</p>
+
+<p><strong>Exhaustive (partition) set of events:</strong> A set of disjoint events E1, E2, …, En is collectively said to be an exhaustive set of events if the union of these events is the sample space S. For example, in rolling a die, E1 = {1,3,5} and E2={2,4,6} are exhaustive events because of E1 U E2 = S.</p>
+
+<p><strong>Favorable cases or events:</strong> The number of outcomes of a random experiment that describe the possible set of actual outcomes is called favorable cases to the event. In a pack of cards, the number of favorable cases of a king is 4, and the black card is 26. In rolling a die once, the number of favorable cases of getting an event number is 3.</p>
+
+<h3 id="types-of-events">Types of Events</h3>
+
+<p><strong>Simple and compound events:</strong> Simple (elementary) events cannot be broken down further whereas compound (composite) events consist of more than one outcome. For example, while rolling a die, the event of getting 1 is simple whereas the event f getting an even number is composite.</p>
+
+<p><strong>Mutually exclusive or Incompatible events:</strong> Two or more events are said to be mutually exclusive (or <strong>disjoint events</strong> or <strong>incompatible events</strong>) if the happening of any one event excluded the happening of another event. For example, in a coin-toss experiment, either H or a T occurs at a time but not both. Likewise, in a die-roll experiment if the events are A = {1,3,5}, B= {2,4,6} and C = primes = {2,3,5}, A and B are mutually exclusive but A and C are not.</p>
+
+<p><strong>Equally like or mutually symmetric events:</strong> Two or more events are said to be equally likely  (or equiprobable) events if all the events have an equal chance of occurrence. If a fair die is rolled all the outcomes 1,2,3,4,5,6 are equally likely.</p>
+
+<p><strong>Independent events:</strong> Events are said to be independent of each other if the occurrence of any one of them does not affect and is not affected by the occurrence or non-occurrence of the other. If two coins are tossed together, the occurrence of the head or tail on the first coin does not affect the result of the second coin.</p>
+
+<p><strong>Dependent events:</strong> Contrastingly, if the occurrence of one event affects the outcomes of the other then the event is said to be dependent. If a second card is drawn from a pack of cards without the replacement of the first card, then the outcome of the second instance is affected.</p>
+
+<p><strong>Complementary events:</strong> Any two events are said to be complementary (or complement of each other) if (i) they are mutually exclusive and (ii) they are collectively exhaustive.</p>
+
+<p><strong>Equal events:</strong> Two events are said to be equal if A ⊂ B and B ⊂ A, This statement implies that all the points of A are also the points of B and vice-versa.</p>
+
+<p><strong>Derived events:</strong> For two events A and B, the event A or B i.e A ∪ B  is a derived event.</p>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<div id="share-bar">
+
+    <h4>Share this:</h4>
+
+    <div class="share-buttons">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
+            <i class="fa fa-facebook-official share-button"> facebook</i>
+        </a>
+
+        <a href="https://twitter.com/intent/tweet?text=Intro to Probability: Statistics for Data Science&amp;url=https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter">
+            <i class="fa fa-twitter share-button"> twitter</i>
+        </a>
+
+        <a href="http://www.reddit.com/submit?url=https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Share on Reddit">
+            <i class="fa fa-reddit-alien share-button"> reddit</i>
+        </a>
+
+        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://akashadhikari.github.io/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html&amp;title=Intro to Probability: Statistics for Data Science&amp;summary=&amp;source=The Data Science Blog" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
+            <i class="fa fa-linkedin share-button"> linkedin</i>
+        </a>
+
+    </div>
+
+</div>
+
+<style>
+    /* Share Bar */
+    #share-bar {
+        font-size: 20px;
+    }
+
+    /* Title */
+    #share-bar h4 {
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+
+    /* All buttons */
+    .share-buttons {}
+
+    /* Each button */
+    .share-button {
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-right: 3px;
+        border: 1px solid #D3D6D2;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .share-button:hover {
+        opacity: 1;
+        color: #ffffff;
+    }
+
+    /* Facebook button */
+    .fa-facebook-official {
+        color: #3b5998;
+    }
+
+    .fa-facebook-official:hover {
+        background-color: #3b5998;
+    }
+
+    /* Twitter button */
+    .fa-twitter {
+        color: #55acee;
+    }
+
+    .fa-twitter:hover {
+        background-color: #55acee;
+    }
+
+    /* Google-PLus button */
+    .fa-google-plus {
+        color: #dd4b39;
+    }
+
+    .fa-google-plus:hover {
+        background-color: #dd4b39;
+    }
+
+    /* Pinterest button */
+    .fa-pinterest-p {
+        color: #cb2027;
+    }
+
+    .fa-pinterest-p:hover {
+        background-color: #cb2027;
+    }
+
+    /* Tumblr button */
+    .fa-tumblr {
+        color: #32506d;
+    }
+
+    .fa-tumblr:hover {
+        background-color: #32506d;
+    }
+
+    /* Reddit button */
+    .fa-reddit-alien {
+        color: #ff4500;
+    }
+
+    .fa-reddit-alien:hover {
+        background-color: #ff4500;
+    }
+
+    /* LinkedIn button */
+    .fa-linkedin {
+        color: #007bb5;
+    }
+
+    .fa-linkedin:hover {
+        background-color: #007bb5;
+    }
+
+    /* Email button */
+    .fa-envelope {
+        color: #444444;
+    }
+
+    .fa-envelope:hover {
+        background-color: #444444;
+    }
+</style>
+
+
+  </div><a class="u-url" href="/machinelearning/2021/07/26/intro-to-probability-statistics-for-data-science-001.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">The Data Science Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">The Data Science Blog</li><li><a class="u-email" href="mailto:akashadhikari.py@gmail.com">akashadhikari.py@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/akashadhikari"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">akashadhikari</span></a></li><li><a href="https://www.twitter.com/sky0_1"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">sky0_1</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Diving into Data Science and Machine Learning Concepts.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
