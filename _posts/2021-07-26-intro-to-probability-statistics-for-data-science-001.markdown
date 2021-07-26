@@ -13,7 +13,7 @@ Answer: 2 methods from A and 3 methods from B, i.e 5 ways.
 
 John is assembling a computer. He has a choice of chips from 2 brands, a hard drive from 4 brands, a memory from 3, and an accessory bundle from 5 local stores. How many different ways can John order the parts?
 
-Answer: 2*4*3*5 = 120 different ways
+Answer: 2 * 4 * 3 * 5 = 120 different ways
 
 A test contains 20 questions each having 4 choices. If there is only one right answer to each question, in how many ways can a student mark the test paper?
 
